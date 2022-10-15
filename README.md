@@ -332,6 +332,334 @@ Test Case Inputs
  1
 12. Write a program to generate 5 Random nos. between 1 to 100, and it should not follow 
 with decimal point
+----------------------------------------------------------------------------------------------------------
+
+Revision Day-2 
+Course : CSA0954 Programming in Java for Mainframe Applications
+Date : 13.10.2022
+1. Write a java program to perform the following String operation 
+(i) Palindrome or not
+(ii) Reverse String
+(iii) Substring
+(iv) Remove duplicate characters 
+Test Case
+a. lea@st one wor2d
+b. 1254 98076
+c. & * ( ) % # $
+d. letters and spaces
+e. Good#$^&Word
+2. Write a java program to perform the following String operation 
+(i) Two String are anagrams
+(ii) Find the string length
+(iii) Convert a string into lower case and Upper case
+(iv) Find the Last Word of given String 
+(v) Extract the Vowels & Consonances from the string
+Test Case
+f. lea@st one wor2d
+g. 1254 98076
+h. & * ( ) % # $
+i. letters and spaces
+j. Good#$^&Word
+3. Java program to perform the following Array operation
+(i) Find all pairs whose sum is equal to given number:
+(ii) Find n
+th smallest and largest element in array
+(iii) Find number occurring odd & Even numbers of times in array
+Test Case
+1. {16, 16, 16 16, 16}, M = 0, N = 1
+2. {0, 0, 0, 0}, M = 1, N = 2
+3. {-12, -78, -35, -42, -85}, M = 3 , N = 3
+4. {15, 19, 34, 56, 12}, M = 6 , N = 3
+5. {85, 45, 65, 75, 95}, M = 5 , N = 7 
+4. Java program to perform the following Array operation
+(i) Separate odd & Even numbers in array
+(ii) Find the number of composite numbers
+(iii) First Element as the Number and Second Element as the Square of the Number
+(iv) Find the common elements in two array Either Positive integer and Negative 
+integer
+Test Case
+1. {16, 16, 16 16, 16}, M = 0, N = 1
+2. {0, 0, 0, 0}, M = 1, N = 2
+3. {-12, -78, -35, -42, -85}, M = 3 , N = 3
+4. {15, 19, 34, 56, 12}, M = 6 , N = 3
+5. {85, 45, 65, 75, 95}, M = 5 , N = 7 
+5. Write a program to convert 
+(i) Decimal num equivalent to Binary number and octal, hexadecimal
+(ii) Binary number equivalent to Decimal number and octal, hexadecimal
+(iii) hexadecimal number equivalent to Binary number and , Decimal num
+hexadecimal
+Sample Input:
+Decimal Number: 15
+Sample Output:
+Binary Number = 1111
+Octal = 17
+Hexadecimal = F
+Test cases:
+1. 111
+2. 15.2
+3. 1010.011
+4. B12
+5. 1A.2
+6. Write a program to print the following pattern
+(i) Hollow square with special characters and Numbers 
+(ii) inverted pyramid pattern with special characters and Numbers
+(iii) Right Triangle Star Pattern special characters and Numbers
+7. Write a program to print the following pattern
+1
+2 2
+3 3 3 
+4 4 4 4
+1
+4 9
+16 25 36
+49 64 81 
+100
+1
+1 1
+1 2 1
+1 3 3 1
+1 4 6 4 1
+1
+11
+111
+11
+1
+
+-----------------------------------------------------------------------------------------------------------
 
 
+Revision Day-3 
+Course : CSA0954 Programming in Java for Mainframe Applications
+Date : 14.10.2022
+1. In an organization they decide to give bonus to all the employees on New Year. A 5% bonus 
+on salary is given to the grade A workers and 10% bonus on salary to the grade B workers. 
+Write a program to enter the salary and grade of the employee. If the salary of the employee 
+is less than $10,000 then the employee gets an extra 2% bonus on salary Calculate the bonus 
+that has to be given to the employee and print the salary that the employee will get.
+Sample Input & Output:
+Enter the grade of the employee: B
+Enter the employee salary: 50000
+Salary=50000
+Bonus=5000.0
+Total to be paid:55000.0
+Test cases:
+1. Enter the grade of the employee: A
+Enter the employee salary: 8000
+2. Enter the grade of the employee: C
+Enter the employee salary: 60000
+3. Enter the grade of the employee: B
+Enter the employee salary: 0
+4. Enter the grade of the employee: 38000
+Enter the employee salary: A
+5. Enter the grade of the employee: B
+Enter the employee salary: -8000
+2. Write a program to enter the marks of a student in four subjects. Then calculate the total and 
+aggregate, display the grade obtained by the student. If the student scores an aggregate 
+greater than 75%, then the grade is Distinction. If aggregate is 60>= and <75, then the grade 
+is First Division. If aggregate is 50 >= and <60, then the grade is Second Division. If 
+aggregate is 40>= and <50, then the grade is Third Division. Else the grade is Fail.
+Sample Input & Output:
+Enter the marks in python: 90
+Enter the marks in c programming: 91
+Enter the marks in Mathematics: 92
+Enter the marks in Physics: 93
+Total= 366
+Aggregate = 91.5
+DISTINCTION
+Test cases:
+a) 18, 76,93,65
+b) 73,78,79,75
+c) 98,106,120,95
+d) 96,73, -85,95
+e) 78,59.8,76,79
+3. Write a program to calculate tax given the following conditions:
+a. If income is less than or equal to 1,50,000 then no tax
+b. If taxable income is 1,50,001 – 3,00,000 the charge 10% tax
+c. If taxable income is 3,00,001 – 5,00,000 the charge 20% tax
+d. If taxable income is above 5,00,001 then charge 30% tax
+Sample Input:
+Enter the income:200000
+Sample Output:
+Tax= 20000
+Test cases:
+1. 400700
+2. 2789239
+3. 150000
+4. 00000
+5. -125486
+4. Write a program to enter the marks of a student in four subjects. Then calculate the total and 
+aggregate, display the grade obtained by the student. If the student scores an aggregate 
+greater than 75%, then the grade is Distinction. If aggregate is 60>= and <75, then the grade 
+is First Division. If aggregate is 50 >= and <60, then the grade is Second Division. If 
+aggregate is 40>= and <50, then the grade is Third Division. Else the grade is Fail.
+Sample Input & Output:
+Enter the marks in python: 90
+Enter the marks in c programming: 91
+Enter the marks in Mathematics: 92
+Enter the marks in Physics: 93
+Total= 366
+Aggregate = 91.5
+DISTINCTION
+Test cases:
+1. 18, 76,93,65
+2. 73,78,79,75
+3. 98,106,120,95
+4. 96,73, -85,95
+5. 78,59.8,76,79
+5. Bank is a class that provides method to get the rate of interest. But, rate of interest may differ 
+according to banks. For example, SBI, ICICI and AXIS banks are providing 8.4%, 7.3% and 
+9.7% rate of interest. Write a Java program for above scenario.
+Sample Input SBI, 8.4
+Sample Output 
+Test case 
+1. SBI, 8.3
+2. ICICI, 7.3
+3. AXIS, 9.7
+4. SBI, 8.6
+5. AXIX, 7.6
+6. Bring out the situation in which member names of a subclass hide members by the same name 
+in the super class. How it can be resolved? Write Suitable code in Java and 
+Implement above scenario with the Parametrized Constructor (accept int type parameter) 
+of the Super Class can be called from Sub Class Using super () and display the input 
+values provided.
+Sample Input : 100, 200
+Sample Output : 100, 200
+Test Cases
+1. 10, 20
+2. -20, -30
+3. 0, 0
+4. EIGHT FIVE
+5. 10.57, 12.58
+7. Display Multiplication table for 5 and 10 using various stages of life cycle of the thread by 
+generating a suitable code in Java.
+Sample Input 5, 10
+5 X 1 = 5
+5 X 2 =10
+….
+10 X 1 =10
+10 X 2 = 20
+….
+Test Cases:
+1. 10, 20
+2. -10, -30
+3. 0, 0
+4. SIX, SIX
+5. 9.8, 9.6
+
+---------------------------------------------------------------------------------------------------------
+
+
+Revision Day-4 
+Course : CSA09 Programming in Java
+Date : 15.10.2022
+1. Create Customer class with deposit() and withdraw() as synchronized methods. Declare 
+AccountNo, AccName and Balance as Instance Variables inside the class. From the main 
+class, Input the amount for withdraw() operation and if requested amount is not available in 
+existing Balance amount, withdraw() method should be temporarily suspended using wait() 
+method until deposit() method receives the input for amount, to be added in the existing 
+Balance amount and then withdraw() would be completed in a successful manner. Develop 
+the above scenario using Synchronization and Inter-Thread Communication.
+Note : existing Bank balance amount 10000
+Sample Input : 12000, 3000
+Sample Output : Withdraw operation success, balance amount 1000
+Test Cases
+1. 11000, 4000
+2. -10000, -2000
+3. 0, 0
+4. EIGHT SEVEN, FIVE
+5. 100.67, 200.68
+2. Given an integer n, return a string array answer (1-indexed) where:
+answer[i] == "FizzBuzz" if i is divisible by 3 and 5.
+answer[i] == "Fizz" if i is divisible by 3.
+answer[i] == "Buzz" if i is divisible by 5.
+answer[i] == i (as a string) if none of the above conditions are true.
+Example 1:
+Input: n = 3
+Output: ["1","2","Fizz"]
+Test Case
+Test 
+Case
+Inputs
+1. n = 5
+2. n = 10
+3. n = 12
+4. n = 18
+5. n = 20
+3. Roman numerals are represented by seven different symbols: I, V, X, L, C, D and M.
+Symbol Value
+I 1
+V 5
+X 10
+L 50
+C 100
+D 500
+M 1000
+For example, 2 is written as II in Roman numeral, just two ones added together. 12 is written 
+as XII, which is simply X + II. The number 27 is written as XXVII, which is XX + V + II.
+Roman numerals are usually written largest to smallest from left to right. However, the 
+numeral for four is not IIII. Instead, the number four is written as IV. Because the one is 
+before the five we subtract it making four. The same principle applies to the number nine, 
+which is written as IX. There are six instances where subtraction is used:
+ I can be placed before V (5) and X (10) to make 4 and 9.
+ X can be placed before L (50) and C (100) to make 40 and 90.
+ C can be placed before D (500) and M (1000) to make 400 and 900.
+ Given a roman numeral, convert it to an integer.
+Example:
+Input: s = "III"
+Output: 3
+4. Given two strings ransomNote and magazine, return true if ransomNote can be constructed 
+by using the letters from magazine and false otherwise. Each letter in magazine can only be 
+used once in ransomNote.
+Example 1:
+Input: ransomNote = "a", magazine = "b"
+Output: false
+Test Case
+Test Case Inputs
+1. ransomNote = "aa", magazine = "ab"
+2. ransomNote = "aa", magazine = "aab"
+3. ransomNote = "abc", magazine = "abc"
+4. ransomNote = "good", magazine = "better"
+5. ransomNote = "xyz", magazine = "123"
+Test Case Inputs
+1. LVIII
+2. MCMXCI
+3. V
+4. LZAII
+5. MCCDTIV
+5. You are given an m x n binary matrix mat of 1's (representing soldiers) and 0's (representing 
+civilians). The soldiers are positioned in front of the civilians. That is, all the 1's will appear 
+to the left of all the 0's in each row.
+A row i is weaker than a row j if one of the following is true:
+The number of soldiers in row i is less than the number of soldiers in row j.
+Both rows have the same number of soldiers and i< j. Return the indices of the k weakest 
+rows in the matrix ordered from weakest to strongest.
+Example 1:
+Input: mat = 
+[[1,1,0,0,0],
+[1,1,1,1,0],
+[1,0,0,0,0],
+[1,1,0,0,0],
+[1,1,1,1,1]], 
+k = 3
+Output: [2,0,3]
+Explanation: 
+The number of soldiers in each row is: 
+- Row 0: 2 
+- Row 1: 4 
+- Row 2: 1 
+- Row 3: 2 
+- Row 4: 5 
+The rows ordered from weakest to strongest are [2,0,3,1,4].
+6. Given an integer num, return the number of steps to reduce it to zero. In one step, if the 
+current number is even, you have to divide it by 2, otherwise, you have to subtract 1 from it.
+Example 1:
+Input: num = 14
+Output: 6
+Explanation: 
+Step 1) 14 is even; divide by 2 and obtain 7. 
+Step 2) 7 is odd; subtract 1 and obtain 6.
+Step 3) 6 is even; divide by 2 and obtain 3. 
+Step 4) 3 is odd; subtract 1 and obtain 2. 
+Step 5) 2 is even; divide by 2 and obtain 1. 
+Step 6) 1 is odd; subtract 1 and obtain 0.
 
